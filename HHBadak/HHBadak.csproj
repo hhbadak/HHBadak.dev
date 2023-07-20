@@ -3911,25 +3911,40 @@
     <Content Include="Evimis\Assets\vendor\jquery\jquery.min.js" />
     <Content Include="Evimis\Assets\vendor\jquery\jquery.slim.js" />
     <Content Include="Evimis\Assets\vendor\jquery\jquery.slim.min.js" />
-    <Content Include="Evimis\index.aspx" />
-    <Content Include="Evimis\Tables.aspx" />
+    <Content Include="Evimis\Default.aspx" />
+    <Content Include="Evimis\Grafik.aspx" />
+    <Content Include="Evimis\Table.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Evimis\index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Evimis\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Evimis\index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Evimis\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Evimis\Tables.aspx.cs">
-      <DependentUpon>Tables.aspx</DependentUpon>
+    <Compile Include="Evimis\EvimisPanel.Master.cs">
+      <DependentUpon>EvimisPanel.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Evimis\Tables.aspx.designer.cs">
-      <DependentUpon>Tables.aspx</DependentUpon>
+    <Compile Include="Evimis\EvimisPanel.Master.designer.cs">
+      <DependentUpon>EvimisPanel.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Evimis\Grafik.aspx.cs">
+      <DependentUpon>Grafik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Evimis\Grafik.aspx.designer.cs">
+      <DependentUpon>Grafik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Evimis\Table.aspx.cs">
+      <DependentUpon>Table.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Evimis\Table.aspx.designer.cs">
+      <DependentUpon>Table.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -4203,6 +4218,7 @@
     <Content Include="Evimis\Assets\fontawesome\webfonts\fa-solid-900.woff2" />
     <Content Include="Evimis\Assets\fontawesome\webfonts\fa-v4compatibility.ttf" />
     <Content Include="Evimis\Assets\fontawesome\webfonts\fa-v4compatibility.woff2" />
+    <Content Include="Evimis\EvimisPanel.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
