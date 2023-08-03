@@ -123,10 +123,20 @@
 
                 <!-- Nav Item - Tables -->
 
-                <li class="nav-item">
-                    <a class="nav-link" href="tables.html">
-                        <i class="fas fa-briefcase fa-briefcase"></i>
-                        <span>Freelance</span></a>
+               <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="fas fa-fw fa-briefcase"></i>
+                        <span>Freelance</span>
+                    </a>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Detaylar:</h6>
+                            <a class="collapse-item" href="buttons.html">Teklifler</a>
+                            <a class="collapse-item" href="cards.html">Devam Eden İşler</a>
+                            <a class="collapse-item" href="cards.html">Biten İşler</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
             <!-- End of Sidebar -->
